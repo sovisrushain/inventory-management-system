@@ -33,7 +33,7 @@ export default function ProductList() {
       <table className="table table-striped">
         <thead>
         <tr>
-          <th scope="col">#</th>
+          <th scope="col"></th>
           <th scope="col">Title</th>
           <th scope="col">Price</th>
           <th scope="col">Quantity</th>
@@ -45,7 +45,7 @@ export default function ProductList() {
         </tbody>
       </table>
       <div>
-        <NavLink className="btn btn-primary" to="/new">Add</NavLink>
+        <NavLink className="btn btn-primary" to="/new">Add Product</NavLink>
       </div>
     </div>
 

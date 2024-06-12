@@ -26,7 +26,7 @@ export default function ProductTableRow ({id, title, price, quantity}) {
       <td>
         <div className="btn-group">
           <NavLink className="btn btn-info" to={`/${id}`}>View</NavLink>
-          <NavLink className="btn btn-light" to={`/${id}/edit`}>Edit</NavLink>
+          <NavLink className="btn btn-warning" to={`/${id}/edit`}>Edit</NavLink>
           <button onClick={deleteProduct} className="btn btn-danger">Delete</button>
         </div>
       </td>
