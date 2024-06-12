@@ -10,7 +10,7 @@
 
 
 ### Products
- 
+![alt text](assets/ims01.png)
 
 ### View Product
 ![alt text](assets/ims03.png)
